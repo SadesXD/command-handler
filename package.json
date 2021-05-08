@@ -1,7 +1,7 @@
 {
-  "name": "hello-node",
+  "name": "command-handler",
   "version": "0.0.1",
-  "description": "A simple Node app built on fastify, instantly up and running.",
+  "description": "Discord bot command handler using javascript",
   "main": "server.js",
   "scripts": {
     "start": "node server.js"
@@ -11,16 +11,5 @@
     "fs": "^0.0.2",
     "dotenv": "^8.2.0"
   },
-  "engines": {
-    "node": "14.x"
-  },
-  "repository": {
-    "url": "https://glitch.com/edit/#!/glitch-hello-node"
-  },
-  "license": "MIT",
-  "keywords": [
-    "node",
-    "glitch",
-    "express"
-  ]
+  "license": "MIT"
 }
