@@ -5,9 +5,7 @@ module.exports = {
   description: "Show user ping",
   usage: "-ping",
   aliases: ["beep"],
-  permissions: [
-    "ADMINISTRATOR"
-  ],
+  permissions: [],
   cooldown: 10000,
   run: async (client, message, args) => {
     return message.channel.send("Pongg....");
