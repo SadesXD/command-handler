@@ -24,7 +24,7 @@
 
 - 1.2 Type this in the terminal `npm install`
 - 1.3 configuration your bot in `config.json` file
-- 1.4 run your programm by typing `node index.js` in the terminal
+- 1.4 run your programm by typing `node server.js` in the terminal
 
 ## Notes
 
