@@ -23,6 +23,7 @@ module.exports = (client, message) => {
   let CommandPermission = commandFile.permissions;
   for(let i = 0; i < CommandPermission.length; i++) {
     let list = Object.keys(Permissions.FLAGS);
+    // Permissions Flags list: https://discord.js.org/#/docs/main/stable/class/Permissions?scrollTo=s-FLAGS
     
     if(!list.some((perms) => perms.includes(CommandPermission[i]))) {
       throw new Error(`Permissions Flags [${CommandPermission[i]}] for Command: ${commandFile.name} is not listed`);
